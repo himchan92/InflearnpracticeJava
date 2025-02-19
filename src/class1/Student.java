@@ -5,7 +5,7 @@ package class1;
     명명규칙은 대문자로 시작
  */
 public class Student {
-    //멤버변수 or 필드 or 항목
+    //멤버변수 or 필드 or 항목 or 속성
     // 명명규칙은 카멜케이스
     String name;
     int age;
