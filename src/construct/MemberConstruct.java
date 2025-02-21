@@ -17,4 +17,10 @@ public class MemberConstruct {
         this.age = age;
         this.grade = grade;
     }
+
+    //생성자 추가 가능
+    MemberConstruct(String name, int age) {
+        this(name, age, 45); //this 오버로딩 : 생성자안에서만 사용가능하며 중복제거 장점
+    }
+
 }
