@@ -20,7 +20,7 @@ public class MemberConstruct {
 
     //생성자 추가 가능
     MemberConstruct(String name, int age) {
-        this(name, age, 45); //this 오버로딩 : 생성자안에서만 사용가능하며 중복제거 장점
+        this(name, age, 45); //this 오버로딩 : 생성자안에서만 사용가능하며 중복제거 장점, 단, 첫줄에서만 작성가능되고 아니면 오류
     }
 
 }
